@@ -2,7 +2,7 @@ apiVersion: mq.ibm.com/v1beta1
 kind: QueueManager
 metadata:
   name: mqcl1
-  namespace: ibmmq
+  namespace: mq
 spec:
   license:
     accept: true
