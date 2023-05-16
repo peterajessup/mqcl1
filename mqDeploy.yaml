@@ -9,7 +9,7 @@ spec:
     license: L-RJON-BZFQU2
     metric: VirtualProcessorCore
     use: NonProduction
-  queueManager
+  queueManager:
     storage:
       queueManager:
         enabled: true
