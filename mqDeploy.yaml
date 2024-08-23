@@ -10,9 +10,11 @@ spec:
     metric: VirtualProcessorCore
     use: NonProduction
   queueManager:
+    imagePullPolicy: Always
     storage:
+      defaultClass: ocs-storagecluster-cephfs
       queueManager:
-        enabled: true
+        type: persistent-claim
     resources:
       limits:
         cpu: '0.3'
