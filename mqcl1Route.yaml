@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: mqcl1route 
-  namespace: wbc9 
+  namespace: mq 
 spec:
   host: tlsone.chl.mq.ibm.com
   to:
