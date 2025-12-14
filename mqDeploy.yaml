@@ -31,7 +31,7 @@ spec:
         - cl.mqsc
     ini:
     - configMap:
-        name: mq2-mqsc
+        name: cl1-mqsc
         items:
         - mq.ini
   version: 9.4.3.1-r3
